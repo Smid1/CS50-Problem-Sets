@@ -37,7 +37,7 @@ At the time the user executes the program, they should decide, by providing a co
 Now we have to encrypt messages again, but now, we provide a command-line argument that will be the entire key.
 
 By providing, for exemple, the key = YTNSHKVEFXRBAUQZCLWDMIPGJO, the message is encripted following the sequence, where:
-A = Y
-B = T
-C = C
+- A = Y
+- B = T
+- C = C
 ... 
