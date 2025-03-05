@@ -40,4 +40,6 @@ By providing, for exemple, the key = YTNSHKVEFXRBAUQZCLWDMIPGJO, the message is 
 - A = Y
 - B = T
 - C = C
-... 
+...
+
+### Following weeks are being made
