@@ -42,11 +42,9 @@ int main(int argc, string argv[]) {
     string voting;
     for (int i = 0; i < voters; i++) {
         voting = get_string("Vote: ");
-        if (vote(voting)) {
-            continue;
-        } else {
+        if (!vote(voting)) {
             printf("Invalid vote.\n");
-        }
+        } 
     }
 
     print_winner();
