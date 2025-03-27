@@ -23,7 +23,7 @@ The purpose is to write a program that prompts the user for a credit card number
 Also, before that, there was another problem to be resolved for those who were not so comfortable programming, I solved it as well. However, as it was too simple (code a program that gives the minimum amount of coins to give as a change of a <$1 buy) I chose not to put in here.
 
 ### Week 2 - Scrabble
-That time we had to write a program about the Scrabble game.
+Now time we had to write a program about the Scrabble game.
 
 For those that are unfamiliar with Scrabble (as I was), it is a game that gives a certain score for each player's words based on the values of each letter.
 The program should do exactly what the game is all about by typing the player's words, and then prompt who won or if it was a tie.
@@ -41,5 +41,37 @@ By providing, for exemple, the key = YTNSHKVEFXRBAUQZCLWDMIPGJO, the message is 
 - B = T
 - C = C
 ...
+
+### Week 3 - Plurality
+On this exercise we need to create a program simulating an election.
+
+Based on a certain set of candidates, the votes should be computaded each time the candidate`s name is tiped.
+The candidate with most votes win.
+
+### Week 3 - Runoff
+Now, continuing with elections, now all voters can rank their prefereces over each candidate.
+
+For exemple, if the candidates are: Alice, Bob and Charlie, the voter could rank them like:
+1 - Alice
+2 - Bob
+3 - Charlie
+
+That way, they can express who they would prefer. This should help in case that a tie happens, as we can exclude the least voted and see who is prefered over who from the least voted electors.
+
+### Week 3 - Tideman
+Again, there`s also some problems with runoff. For instance, it can happen that Alice loose agains Bob in an runoff election, but seeing the votes, she might won if the competition was a head to head.
+
+Considering those votes:
+Vote 1:    Vote 2:    Vote 3:    Vote 4:    Vote 5:    Vote 6:    Vote 7:    Vote 8:    Vote 9:
+Alice      Alice      Bob        Bob        Bob        Charlie    Charlie    Charlie    Charlie
+Charlie    Charlie    Alice      Alice      Alice      Alice      Alice      Alice      Bob
+Bob        Bob        Charlie    Charlie    Charlie    Bob        Bob        Bob        Alice
+
+In an Plurality or Runoff vote system, Charlie would be the winner. But, if we analyse it, Alice would win if it was head to head.
+Plurality: Alice - 2, Bob - 3, Charlie - 4
+Runoff: Charlie would win as he would be the second most voted
+Head to head: Alice > Charlie - 5, Alice > Bob: 5, Bob > Alice: 4, Bob > Charlie: 3, Charlie > Alice: 4, Charlie > Bob: 6
+
+The Tideman algorith takes the head to head competition and consider the winner of it as the true winner (Condorcet Winner).
 
 ### Following weeks are being made
