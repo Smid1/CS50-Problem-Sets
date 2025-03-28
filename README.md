@@ -74,4 +74,6 @@ Head to head: Alice > Charlie - 5, Alice > Bob: 5, Bob > Alice: 4, Bob > Charlie
 
 The Tideman algorith takes the head to head competition and consider the winner of it as the true winner (Condorcet Winner).
 
-### Following weeks are being made
+
+
+### Following weeks are being made...
