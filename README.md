@@ -63,9 +63,13 @@ Again, there`s also some problems with runoff. For instance, it can happen that 
 
 Considering those votes:
 Vote 1:    Vote 2:    Vote 3:    Vote 4:    Vote 5:    Vote 6:    Vote 7:    Vote 8:    Vote 9:
+
 Alice      Alice      Bob        Bob        Bob        Charlie    Charlie    Charlie    Charlie
+
 Charlie    Charlie    Alice      Alice      Alice      Alice      Alice      Alice      Bob
+
 Bob        Bob        Charlie    Charlie    Charlie    Bob        Bob        Bob        Alice
+
 
 In an Plurality or Runoff vote system, Charlie would be the winner. But, if we analyse it, Alice would win if it was head to head.
 Plurality: Alice - 2, Bob - 3, Charlie - 4
