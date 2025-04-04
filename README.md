@@ -62,6 +62,7 @@ That way, they can express who they would prefer. This should help in case that 
 Again, there`s also some problems with runoff. For instance, it can happen that Alice loose agains Bob in an runoff election, but seeing the votes, she might won if the competition was a head to head.
 
 Considering those votes:
+
 Vote 1:    Vote 2:    Vote 3:    Vote 4:    Vote 5:    Vote 6:    Vote 7:    Vote 8:    Vote 9:
 
 Alice      Alice      Bob        Bob        Bob        Charlie    Charlie    Charlie    Charlie
