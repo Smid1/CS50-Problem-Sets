@@ -73,8 +73,11 @@ Bob        Bob        Charlie    Charlie    Charlie    Bob        Bob        Bob
 
 
 In an Plurality or Runoff vote system, Charlie would be the winner. But, if we analyse it, Alice would win if it was head to head.
+
 Plurality: Alice - 2, Bob - 3, Charlie - 4
+
 Runoff: Charlie would win as he would be the second most voted
+
 Head to head: Alice > Charlie - 5, Alice > Bob: 5, Bob > Alice: 4, Bob > Charlie: 3, Charlie > Alice: 4, Charlie > Bob: 6
 
 The Tideman algorith takes the head to head competition and consider the winner of it as the true winner (Condorcet Winner).
