@@ -88,7 +88,7 @@ Week 4 was focused on handling files, pointers and dynamic memory allocation.
 Here is a algorithm to increase or decrease a WAV file`s volume, simple as that.
 
 ### Week 4 - Filter
-Now images! This basicly adds filters to BMP images using command line arguments.
+Now images! This basically adds filters to BMP images using command line arguments.
 
 ### Week 4 - Recover
 Lastly, using JPEG images. This algorithm recovers lost images that may be excluded, as removing files always leaves traces.
