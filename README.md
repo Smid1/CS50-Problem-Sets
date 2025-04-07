@@ -93,4 +93,19 @@ Now images! This basically adds filters to BMP images using command line argumen
 ### Week 4 - Recover
 Lastly, using JPEG images. This algorithm recovers lost images that may be excluded, as removing files always leaves traces.
 
+### Week 5 - Inheritance
+This week was focused on data structures and this exercise simulates a blood type inheritance. 
+
+That is done by passing a number of generations on a family that should be simulated, in a way that the first generation blood type alleles would be randomly generated and all subsequent member's alleles would be calculated based on that ones.
+
+### Week 5 - Speller
+The second exercise from week 5 was way more focused on data structures. For instance, I had to create a hash function to work in a hash table of words, which would be used as a dictionary to verify if all words in a text are spelled correctly.
+
+The goal was to make a hash function as fast as possible, without copying it from any other source, in another words, I should create it.
+
+After that, we would compare our hash function to CS50's staffs' own.
+
+### Artificial Intelligence Week
+This week was a event focused more on explaining how an AI works, in a language understandable even to non tech area people. So, no exercises this time.
+
 ### Following weeks are being made...
