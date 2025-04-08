@@ -105,6 +105,12 @@ The goal was to make a hash function as fast as possible, without copying it fro
 
 After that, we would compare our hash function to CS50's staffs' own.
 
+### Week 6 - Training Python
+This week was focused on learning Python, so most of the exercises were the similar to the ones in C, but as expected, in Python.
+
+### Week 6 - DNA
+On DNA I had to create a program that would read a dna sequence and see if it matches to the dna of someone in a database, looking for the same amount of STRs
+
 ### Artificial Intelligence Week
 This week was a event focused more on explaining how an AI works, in a language understandable even to non tech area people. So, no exercises this time.
 
