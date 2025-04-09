@@ -1,4 +1,4 @@
-# CS50 Problem Sets
+# CS50 Problem Sets Solutions
 This repository contains a set of problems of each week of the 2025 CS50 Harvard program.
 
 Those problems are related to each week content and made for training coding.
