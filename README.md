@@ -15,7 +15,7 @@ Program content:
   - Week 7 - SQL
   - Week 8 - HTML, CSS and JavaScript
   - Week 9 - Flask
-  - Week 10 - Cybersecutiry (2024) and The End (2025)
+  - Week 10 - The End (Cybersecurity)
 
 ### Week 1 - Credit
 The purpose is to write a program that prompts the user for a credit card number and then reports whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein.
