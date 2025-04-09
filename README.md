@@ -114,4 +114,8 @@ On DNA I had to create a program that would read a dna sequence and see if it ma
 ### Artificial Intelligence Week
 This week was a event focused more on explaining how an AI works, in a language understandable even to non tech area people. So, no exercises this time.
 
+### Week 7 - SQL queries and fiftyville
+Week 7 exercises were mainly making queries to answer questions about movies and songs.
+Except fiftyville, that was an exercise where I needed to find out who stole cs50 duck! What an outrage! To do that, I had a clue about when and where it took place, based on that information I had to make a SQL query that would lead to the thief, where he scaped to and their accomplice. Best exercise so far!
+
 ### Following weeks are being made...
