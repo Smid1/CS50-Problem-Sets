@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            document.addEventListener('DOMContentLoaded', function() {
+                const wrongAnswers = ['Havel', 'Chosen', 'Bearer', 'Ashen'];
+                const correctAnswer = 'Gwyn';
+                
+                let feedback = document.getElementById('feedback')
+                let feedbackMalenia = document.getElementById('feedbackMalenia')
+
+                document.getElementById(correctAnswer).addEventListener('click', function() {
+                    this.style.backgroundColor = 'green';
+                    feedback.style.color = 'green';
+                    feedback.innerHTML = 'Correct!'
+                });
+
+                wrongAnswers.forEach(function (id) {
+                    document.getElementById(id).addEventListener('click', function() {
+                        this.style.backgroundColor = 'red';
+                        feedback.style.color = 'red';
+                        feedback.innerHTML = 'Incorrect!'
+                    });
+                });
+
+                document.getElementById('AnswerMalenia').addEventListener('click', function() {
+                    let resposta = document.getElementById('Malenia').value.trim();
+                    let regex = /let me solo her/i;
+
+                    if (regex.test(resposta)) {
+                        document.getElementById('Malenia').style.backgroundColor = 'green';
+                        feedbackMalenia.style.color = 'green';
+                        feedbackMalenia.innerHTML = 'Correct!';
+                    } else {
+                        document.getElementById('Malenia').style.backgroundColor = 'red';
+                        feedbackMalenia.style.color = 'red';
+                        feedbackMalenia.innerHTML = 'Incorrect!';
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Souls/Born/Ring Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Who was the first Lord of Cinder?</h3>
+                <p id='feedback'></p>
+                <button id='Havel'>Havel</button>
+                <button id='Chosen'>Chosen Undead</button>
+                <button id='Gwyn'>Gwyn</button>
+                <button id='Bearer'>Bearer of the Curse</button>
+                <button id='Ashen'>Ashen One</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <p id='feedbackMalenia'></p>
+                <h3>Who might you call if you're strugling with Malenia?</h3>
+                <input autocomplete="off" autofocus name="Malenia" id="Malenia" type="text" >
+                <button id='AnswerMalenia'>Check Answer</button>
+            </div>
+        </div>
+    </body>
+</html>
