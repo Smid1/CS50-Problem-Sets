@@ -118,4 +118,9 @@ This week was a event focused more on explaining how an AI works, in a language 
 Week 7 exercises were mainly making queries to answer questions about movies and songs.
 Except fiftyville, that was an exercise where I needed to find out who stole cs50 duck! What an outrage! To do that, I had a clue about when and where it took place, based on that information I had to make a SQL query that would lead to the thief, where he scaped to and their accomplice. Best exercise so far!
 
+### Week 8 - HTML, CSS and JavaScript
+On this week there was two exercises, one in which I had to create a little Trivia about something I wanted and the second one is to create a homepage about me.
+
+The second one I skipped, just because I plan to do it for myself as soon as possible, so it will have it's own repository.
+
 ### Following weeks are being made...
